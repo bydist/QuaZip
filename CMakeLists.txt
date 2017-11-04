@@ -2,4 +2,4 @@ include("${CMAKE_CURRENT_LIST_DIR}/id.cmake")
 
 
 
-byd__cmake__add(${package})
+byd__cmake__add(${package} SKIP test)
